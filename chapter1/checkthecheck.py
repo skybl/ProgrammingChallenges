@@ -271,12 +271,6 @@ class Piece:
 
         return transMoves
 
-class Move:
-    def __init__(self, piece, x,y):
-        self.piece = piece
-        self.x = x
-        self.y = y
-
 class Chess:
     def __init__(self, board):
         self.board = []
